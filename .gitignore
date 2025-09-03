@@ -1,1 +1,41 @@
-proposal.tex
+# TeX files
+*.tex
+*.aux
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.out
+*.bbl
+*.blg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Data directory
+data/
+*.npy
+
+# Model checkpoints and outputs
+checkpoints/
+outputs/
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
